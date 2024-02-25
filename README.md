@@ -1,37 +1,29 @@
-# 基于SpringBoot+Vue的校园打印预约系统+Vant移动端
+**[点我获取源码](https://x-x.fun/e/MY93833ea0Pnw)💕🤞**
 
-#### 介绍
-主要针对校园环境下的打印服务，从消费者和商家两个角度出发，对打印现存的问题提出了解决方案，主要实现的功能包括：用户的登录和注册、查看打印店及打印商品、加入购物车、提交订单、模拟支付、留言、生成取件码。
+[点我查看更多](http://blog.cyrobot.top/blog)💕🤞
 
-#### 软件架构
-软件架构说明
+#### 1.项目介绍
+    主要针对校园环境下的打印服务，从消费者和商家两个角度出发，对打印现存的问题提出了解决方案，主要实现的功能包括：用户的登录和注册、查看打印店及打印商品、加入购物车、提交订单、模拟支付、留言、生成取件码。
 
+- 技术选型+环境： SpringBoot + Vue + Vant组件库 + MySQL + IDEA2022
+- 后端功能：用户管理、商家管理、分类管理、商品管理、留言管理、订单管理
+- 前端功能：登录、分类、购物车、下单、留言、个人中心等
+- 角色： 管理员、商家、普通用户
 
-#### 安装教程
+**内附较为规范的毕业设计文档，本项目仅用于学习和毕业设计参考~**
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 2.本地部署
+##### 2.1 后端部署
+- 创建数据库，导入项目中的sql文件
+- 打开IDEA，导入项目backend，根据本地环境，修改src/main/resources/application.yml下的数据库连接
+- 启动项目（右上角运行，或者打开src/main/java/com/shop/demo/DemoApplication.java运行项目）
 
-#### 使用说明
+##### 2.2 前端部署
+- 打开前端开发IDE（vsCode、Webstorm），如果使用IDEA，需要安装Vue插件
+- 执行 npm install
+- 执行 yarn run dev 启动项目
+- 管理web：http://localhost:9528/#/login  管理员账号/密码：admin/admin
+- 移动端：http://localhost:9528 用户账号/密码：zhaomin/123456  （浏览器F12，手机模式查看）
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 3. 项目部分截图
+![输入图片说明](1.png)![输入图片说明](2.png)![输入图片说明](3.png)![输入图片说明](4.png)![输入图片说明](9.png)![输入图片说明](93.png)
